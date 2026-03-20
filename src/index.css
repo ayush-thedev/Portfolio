@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #050505;
+  color: white;
+}
+
+body {
+  background-color: #050505;
+  color: white;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.pixel-text-shadow {
+  text-shadow: 4px 4px 0px rgba(0,0,0,1);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.work-item, .exp-item {
+  transition: color 0.3s ease, transform 0.3s ease, padding-left 0.3s ease;
+}
+.work-item.active, .exp-item.active {
+  color: #000000 !important;
+}
+.work-item:not(.active), .exp-item:not(.active) {
+  color: #888888;
+}
+
+.section-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #000000;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+@keyframes cd-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-cd-spin {
+  animation: cd-spin 2s linear infinite;
+}
+
+.bg-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
