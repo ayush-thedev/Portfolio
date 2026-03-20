@@ -86,7 +86,7 @@ const HeroSection = () => {
             VIEW WORK
           </a>
           <a
-            href="/Portfolio/resume.pdf"
+            href="resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-10 py-4 bg-transparent text-white font-sans text-sm font-bold tracking-widest border-2 border-white hover:bg-white hover:text-black transition-all duration-300 uppercase"
