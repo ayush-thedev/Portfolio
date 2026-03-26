@@ -1,16 +1,62 @@
-# React + Vite
+# Ayush Kant | Creative Director & Frontend Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance personal portfolio showcasing the intersection of creative direction and advanced frontend engineering.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**[ayush-thedev.github.io/Portfolio](https://ayush-thedev.github.io/Portfolio/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=FFF)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+### Frontend Development
+- Component-based architecture optimized for performance and scalability
+- Dynamic micro-interactions and smooth transitions
+- Semantic HTML5 with accessible, maintainable React code
+
+### Creative Direction
+- Immersive hero section with strong visual hierarchy
+- Consistent design system across all touchpoints
+- Aesthetic balance between creative expression and professional polish
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/    # Reusable UI sections and components
+├── assets/        # Branding assets, images, and fonts
+├── styles/        # Global CSS and Tailwind design tokens
+└── App.jsx        # Main application entry point
+```
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/ayush-thedev/Portfolio.git
+npm install
+npm run dev
+```
+
+---
+
+## Contact
+
+- **Portfolio**: [ayush-thedev.github.io/Portfolio](https://ayush-thedev.github.io/Portfolio/)
+- **LinkedIn**: [Ayush Kant](https://linkedin.com/in/ayush-the-dev)
+
+---
+
+&copy; 2026 Ayush Kant
