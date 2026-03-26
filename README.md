@@ -1,4 +1,4 @@
-# Ayush Kant | Creative Director & Frontend Developer
+# Ayush Kant
 
 A high-performance personal portfolio showcasing the intersection of creative direction and advanced frontend engineering.
 
@@ -55,7 +55,6 @@ npm run dev
 ## Contact
 
 - **Portfolio**: [ayush-thedev.github.io/Portfolio](https://ayush-thedev.github.io/Portfolio/)
-- **LinkedIn**: [Ayush Kant](https://linkedin.com/in/ayush-the-dev)
 
 ---
 
